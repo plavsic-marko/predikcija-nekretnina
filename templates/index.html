@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predikcija Cena Nekretnina</title>
+</head>
+<body>
+    <h1>Predikcija Cena Nekretnina</h1>
+    <form action="/predict" method="post">
+        <label for="kvadratura">Kvadratura (m²):</label><br>
+        <input type="text" id="kvadratura" name="kvadratura" required><br><br>
+
+        <label for="broj_soba">Broj soba:</label><br>
+        <input type="number" id="broj_soba" name="broj_soba" required><br><br>
+
+        <label for="godina_izgradnje">Godina izgradnje:</label><br>
+        <input type="number" id="godina_izgradnje" name="godina_izgradnje" required><br><br>
+
+        <label for="parking">Parking (0 = nema, 1 = ima):</label><br>
+        <input type="number" id="parking" name="parking" required><br><br>
+
+        <label for="lift">Lift (0 = nema, 1 = ima):</label><br>
+        <input type="number" id="lift" name="lift" required><br><br>
+
+        <label for="garaza">Garaža (0 = nema, 1 = ima):</label><br>
+        <input type="number" id="garaza" name="garaza" required><br><br>
+
+        <label for="terasa">Terasa (0 = nema, 1 = ima):</label><br>
+        <input type="number" id="terasa" name="terasa" required><br><br>
+
+        <button type="submit">Predvidi cenu</button>
+    </form>
+
+    <h2>{{ prediction }}</h2>
+</body>
+</html>
