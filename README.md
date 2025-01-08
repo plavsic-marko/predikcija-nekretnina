@@ -6,7 +6,7 @@ This is a Python application for predicting real estate prices using Machine Lea
 
 ## 📸 Application Screenshot
 
-![Real Estate Price Prediction App](../mnt/data/slika12.png)
+![Real Estate Price Prediction App](slika12.png)
 
 ---
 
