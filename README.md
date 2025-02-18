@@ -15,7 +15,7 @@ This is a Python application for predicting real estate prices using Machine Lea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/predikcija-nekretnina.git
+git clone https://github.com/plavsic-marko/predikcija-nekretnina.git
 cd predikcija-nekretnina
 ```
 
